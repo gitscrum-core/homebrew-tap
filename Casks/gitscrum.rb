@@ -3,7 +3,7 @@ cask "gitscrum" do
   name "gitscrum"
   desc "GitScrum CLI - Project Management from your terminal"
   homepage "https://gitscrum.com"
-  version "1.0.0"
+  version "1.0.1"
 
   livecheck do
     skip "Auto-generated on release."
@@ -17,22 +17,22 @@ cask "gitscrum" do
   on_macos do
     on_intel do
       url "https://github.com/gitscrum-core/cli/releases/download/v#{version}/gitscrum_#{version}_darwin_amd64.tar.gz"
-      sha256 "d503a5fde95120f9615cb0a4bf0c1259388dc07ba5dc375c18261295f4b95554"
+      sha256 "a67544702cf50bc4cf40b991ecadfb92f0d89d1d60158311f89fe0b235647651"
     end
     on_arm do
       url "https://github.com/gitscrum-core/cli/releases/download/v#{version}/gitscrum_#{version}_darwin_arm64.tar.gz"
-      sha256 "26409b7859cfa0acb84dbd5b0c6c37bec8431dd8336c744b70288903bd2e3595"
+      sha256 "3d9afd6805bbaf3225edbb41475be235ee284279b4093f0d8fac7e68dd470283"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/gitscrum-core/cli/releases/download/v#{version}/gitscrum_#{version}_linux_amd64.tar.gz"
-      sha256 "8d6a3c23c30bd820c271f64c6eac6bbe0204febee0ada16e3d991013a6f04229"
+      sha256 "387af758e60ff18a2830c6384b82af43da583be3e3af9d43d196120eb740823a"
     end
     on_arm do
       url "https://github.com/gitscrum-core/cli/releases/download/v#{version}/gitscrum_#{version}_linux_arm64.tar.gz"
-      sha256 "bc8661196351384eed56b41889f4ca1b03c966a52740492eb855ca1dbe9eb7e7"
+      sha256 "8d3d03980eefd670e4ff904d3d40df76bde811432bfcab8c41ceb9ebfa1fe760"
     end
   end
 
