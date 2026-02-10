@@ -17,22 +17,22 @@ cask "gitscrum" do
   on_macos do
     on_intel do
       url "https://github.com/gitscrum-core/cli/releases/download/v#{version}/gitscrum_#{version}_darwin_amd64.tar.gz"
-      sha256 "51c5f88d7ab7fd1251e4ad1331e913b94181fccc3b348d7aa53194c84025d517"
+      sha256 "d503a5fde95120f9615cb0a4bf0c1259388dc07ba5dc375c18261295f4b95554"
     end
     on_arm do
       url "https://github.com/gitscrum-core/cli/releases/download/v#{version}/gitscrum_#{version}_darwin_arm64.tar.gz"
-      sha256 "1fb1f7c7e5e846a6f2732d7cb138f863a413056918a0a2e9abc85d4c47881af0"
+      sha256 "26409b7859cfa0acb84dbd5b0c6c37bec8431dd8336c744b70288903bd2e3595"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/gitscrum-core/cli/releases/download/v#{version}/gitscrum_#{version}_linux_amd64.tar.gz"
-      sha256 "6cb32fcec48e72800f4bfee3c4e23f41ab695dafe2aacb5e76aaa58b279abab9"
+      sha256 "8d6a3c23c30bd820c271f64c6eac6bbe0204febee0ada16e3d991013a6f04229"
     end
     on_arm do
       url "https://github.com/gitscrum-core/cli/releases/download/v#{version}/gitscrum_#{version}_linux_arm64.tar.gz"
-      sha256 "b91b66f3f3a41fe2e62e5b0644fe74ab5c1ffd28503675f396c64ef0c7dbf517"
+      sha256 "bc8661196351384eed56b41889f4ca1b03c966a52740492eb855ca1dbe9eb7e7"
     end
   end
 
